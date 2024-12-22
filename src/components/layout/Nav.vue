@@ -109,6 +109,7 @@
 
 <script setup lang="ts">
 import {onMounted, ref, watch} from "vue";
+import { cn } from '../../utils/cn.js';
 
 const scrollY = ref(0)
 const mobileSidebar = ref(false)

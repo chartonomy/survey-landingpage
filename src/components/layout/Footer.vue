@@ -125,11 +125,11 @@
     </div>
     <!-- Support me: https://www.buymeacoffee.com/hakimovDev -->
     <a class="fixed z-50 bottom-6 right-2" title="Support me" href="https://www.buymeacoffee.com/hakimovDev" target="_blank">
-      <img class="!h-12" src="../../../assets/imgs/buy-me-coffe.png" alt="Buy me a coffe">
+      <img class="!h-12" src="../../../public/imgs/buy-me-coffe.png" alt="Buy me a coffe">
     </a>
     <!-- Source codes: https://github.com/hakimov-dev/landing-template -->
     <a class="fixed z-50 bottom-6 left-2" title="Free source codes" href="https://github.com/hakimov-dev/landing-template" target="_blank">
-      <img class="!h-12" src="../../../assets/imgs/github.svg" alt="github">
+      <img class="!h-12" src="../../../public/imgs/github.svg" alt="github">
     </a>
   </footer>
 </template>
