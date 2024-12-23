@@ -1,1 +1,104 @@
-@import url(./tailwind.css);@import url(./fonts.css);*{transition:all .3s linear;font-family:'SourceSansPro',sans-serif}.gradient{background:linear-gradient(90deg,#d53369 0%,#daae51 100%)}@media (max-width:768px){[data-aos]{opacity:1 !important;transform:none !important;visibility:visible !important}}html{scroll-behavior:smooth}#customers,#pricing{scroll-margin-top:100px}img{user-select:none;user-drag:none;pointer-events:none}
+@import url(./tailwind.css);
+@import url(./fonts.css);
+
+* {
+    transition: all .3s linear;
+    font-family: 'SourceSansPro', sans-serif
+}
+
+@media (max-width: 768px) {
+    [data-aos] {
+        opacity: 1 !important;
+        transform: none !important;
+        visibility: visible !important
+    }
+}
+
+html {
+    scroll-behavior: smooth
+}
+
+#customers, #pricing {
+    scroll-margin-top: 100px
+}
+
+img {
+    user-select: none;
+    user-drag: none;
+    pointer-events: none
+}
+
+@layer base {
+    :root {
+        --background: 255 255 255;
+        --foreground: 0 0 0;
+
+        --surface: 243 244 246;
+        --surface-foreground: 0 0 0;
+
+        --confirmative: 76 172 74;
+        --confirmative-foreground: 0 0 0;
+
+        --destructive: 220 103 103;
+        --destructive-foreground: 0 0 0;
+
+        --border: 243 243 244;
+        --input: 243 243 244;
+
+        --primary: 39 120 219;
+        --primary-foreground: 255 255 255;
+
+        --secondary: 80 123 216;
+        --secondary-foreground: 243 243 244;
+
+        --ring: 0 0 0;
+        --ring-primary: 243 243 244;
+
+        --radius: 0.5rem;
+        --font-sans: -apple-system, BlinkMacSystemFont, "Open Sans", Helvetica, Arial, sans-serif;
+    }
+
+    .dark {
+        --background: 8 17 24;
+        --foreground: 231 232 232;
+
+        --surface: 16 24 30;
+        --surface-foreground: 231 232 232;
+
+        --confirmative: 110 211 108;
+        --confirmative-foreground: 255 255 255;
+
+        --destructive: 250 85 85;
+        --destructive-foreground: 255 255 255;
+
+        --border: 231, 232, 232;
+        --input: 231, 232, 232;
+
+
+        --primary: 231 232 232;
+        --primary-foreground: 0 0 0;
+
+        --secondary: 50 196 255;
+        --secondary-foreground: 243 243 244;
+
+        --ring: 243 243 244;
+        --ring-primary: 243 243 244;
+
+        --radius: 0.5rem;
+    }
+}
+
+@layer base {
+    * {
+        @apply border-border;
+    }
+
+    body {
+        @apply bg-background text-foreground;
+        font-feature-settings: "rlig" 1, "calt" 1;
+    }
+}
+
+.gradient {
+    background: linear-gradient(90deg, rgb(var(--primary)) 0%, rgb(var(--secondary)) 100%)
+}

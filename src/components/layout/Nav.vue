@@ -9,7 +9,10 @@
     >
       <div class="pl-4 flex items-center">
         <a
-          class="toggleColour text-white no-underline hover:no-underline font-bold text-2xl lg:text-4xl"
+          :class="cn(
+              'no-underline hover:no-underline font-bold text-2xl lg:text-4xl',
+              minimize ? 'text-primary' : 'text-primary-foreground'
+              )"
           href="#"
         >
           <svg
@@ -35,7 +38,7 @@
           id="nav-toggle"
           :class="cn(
             'flex items-center p-1 text-pink-800 hover:text-gray-900 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out',
-            minimize ? 'text-gray-800' : 'text-white'
+            minimize ? 'text-foreground' : 'text-secondary-foreground'
           )"
         >
           <svg
@@ -50,7 +53,7 @@
       </div>
       <div
         :class="mobileSidebar ? '' : 'hidden'"
-        class="w-full flex-grow lg:flex lg:items-center lg:w-auto mt-2 lg:mt-0 bg-white lg:bg-transparent text-black p-4 lg:p-0 z-20"
+        class="w-full flex-grow lg:flex lg:items-center lg:w-auto mt-2 lg:mt-0 bg-white lg:bg-transparent text-foreground p-4 lg:p-0 z-20"
         id="nav-content"
       >
         <ul class="list-reset lg:flex justify-end flex-1 items-center">
@@ -96,7 +99,7 @@
             'mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full mt-4 lg:mt-0 py-4 px-8 shadow opacity-75 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out',
             minimize
               ? 'gradient text-white'
-              : 'bg-white text-[#170F4F]',
+              : 'bg-white text-foreground',
           )"
         >
           Action
@@ -138,7 +141,6 @@ watch(scrollY, (newValue: number) => {
 a {
   font-weight: 600;
   font-style: normal !important;
-  color: white;
 }
 
 .navbar-active ul li a{

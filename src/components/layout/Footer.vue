@@ -1,10 +1,10 @@
 <template>
-  <footer class="bg-white">
+  <footer class="bg-background">
     <div class="container mx-auto px-8">
       <div class="w-full flex flex-col md:flex-row py-6">
         <div class="flex-1 mb-6 text-black">
           <a
-            class="text-pink-600 no-underline hover:no-underline font-bold text-2xl lg:text-4xl"
+            class="!text-primary no-underline hover:no-underline font-bold text-2xl lg:text-4xl"
             href="#"
           >
             <svg
@@ -30,21 +30,21 @@
             <li class="mt-2 inline-block mr-2 md:block md:mr-0">
               <a
                 href="#"
-                class="no-underline hover:underline text-gray-800 hover:text-pink-500"
+                class="no-underline hover:underline text-gray-800 hover:text-primary"
                 >FAQ</a
               >
             </li>
             <li class="mt-2 inline-block mr-2 md:block md:mr-0">
               <a
                 href="#"
-                class="no-underline hover:underline text-gray-800 hover:text-pink-500"
+                class="no-underline hover:underline text-gray-800 hover:text-primary"
                 >Help</a
               >
             </li>
             <li class="mt-2 inline-block mr-2 md:block md:mr-0">
               <a
                 href="#"
-                class="no-underline hover:underline text-gray-800 hover:text-pink-500"
+                class="no-underline hover:underline text-gray-800 hover:text-primary"
                 >Support</a
               >
             </li>
@@ -56,14 +56,14 @@
             <li class="mt-2 inline-block mr-2 md:block md:mr-0">
               <a
                 href="#"
-                class="no-underline hover:underline text-gray-800 hover:text-pink-500"
+                class="no-underline hover:underline text-gray-800 hover:text-primary"
                 >Terms</a
               >
             </li>
             <li class="mt-2 inline-block mr-2 md:block md:mr-0">
               <a
                 href="#"
-                class="no-underline hover:underline text-gray-800 hover:text-pink-500"
+                class="no-underline hover:underline text-gray-800 hover:text-primary"
                 >Privacy</a
               >
             </li>
@@ -75,21 +75,21 @@
             <li class="mt-2 inline-block mr-2 md:block md:mr-0">
               <a
                 href="#"
-                class="no-underline hover:underline text-gray-800 hover:text-pink-500"
+                class="no-underline hover:underline text-gray-800 hover:text-primary"
                 >Facebook</a
               >
             </li>
             <li class="mt-2 inline-block mr-2 md:block md:mr-0">
               <a
                 href="#"
-                class="no-underline hover:underline text-gray-800 hover:text-pink-500"
+                class="no-underline hover:underline text-gray-800 hover:text-primary"
                 >Linkedin</a
               >
             </li>
             <li class="mt-2 inline-block mr-2 md:block md:mr-0">
               <a
                 href="#"
-                class="no-underline hover:underline text-gray-800 hover:text-pink-500"
+                class="no-underline hover:underline text-gray-800 hover:text-primary"
                 >Twitter</a
               >
             </li>
@@ -101,21 +101,21 @@
             <li class="mt-2 inline-block mr-2 md:block md:mr-0">
               <a
                 href="#"
-                class="no-underline hover:underline text-gray-800 hover:text-pink-500"
+                class="no-underline hover:underline text-gray-800 hover:text-primary"
                 >Official Blog</a
               >
             </li>
             <li class="mt-2 inline-block mr-2 md:block md:mr-0">
               <a
                 href="#"
-                class="no-underline hover:underline text-gray-800 hover:text-pink-500"
+                class="no-underline hover:underline text-gray-800 hover:text-primary"
                 >About Us</a
               >
             </li>
             <li class="mt-2 inline-block mr-2 md:block md:mr-0">
               <a
                 href="#"
-                class="no-underline hover:underline text-gray-800 hover:text-pink-500"
+                class="no-underline hover:underline text-gray-800 hover:text-primary"
                 >Contact</a
               >
             </li>

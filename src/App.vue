@@ -17,7 +17,7 @@
             Einfach, verständlich und ohne Installation Tests anlegen und durchführen.
           </p>
           <button
-              class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
+              class="mx-auto lg:mx-0 hover:underline bg-background text-foreground/80 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
           >
             Jetzt ausprobieren
           </button>
@@ -66,11 +66,11 @@
         </g>
       </svg>
     </div>
-    <section id="about" class="bg-white border-b py-8">
+    <section id="about" class="bg-background border-b py-8">
       <div class="container max-w-5xl mx-auto m-8">
         <h2
             data-aos="fade-up"
-            class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800"
+            class="w-full my-2 text-5xl font-bold leading-tight text-center text-foreground/80"
         >
           About
         </h2>
@@ -81,7 +81,7 @@
         </div>
         <div data-aos="fade-up-right" class="flex flex-wrap">
           <div class="w-5/6 sm:w-1/2 p-6">
-            <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
+            <h3 class="text-3xl text-foreground/80 font-bold leading-none mb-3">
               Lorem ipsum dolor sit amet
             </h3>
             <p class="text-gray-600 mb-8">
@@ -92,7 +92,7 @@
 
               Images from:
 
-              <a class="text-pink-500 underline" href="https://undraw.co/"
+              <a class="text-primary underline" href="https://undraw.co/"
               >undraw.co</a
               >
             </p>
@@ -534,7 +534,7 @@
           </div>
           <div class="w-full sm:w-1/2 p-6 mt-6">
             <div class="align-middle">
-              <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
+              <h3 class="text-3xl text-foreground/80 font-bold leading-none mb-3">
                 Lorem ipsum dolor sit amet
               </h3>
               <p class="text-gray-600 mb-8">
@@ -544,7 +544,7 @@
                 <br />
                 Images from:
 
-                <a class="text-pink-500 underline" href="https://undraw.co/"
+                <a class="text-primary underline" href="https://undraw.co/"
                 >undraw.co</a
                 >
               </p>
@@ -553,11 +553,11 @@
         </div>
       </div>
     </section>
-    <section id="customers" class="bg-white border-b py-8">
+    <section id="customers" class="bg-background border-b py-8">
       <div class="container mx-auto flex flex-wrap pt-4 pb-12">
         <h2
             data-aos="fade-up"
-            class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800"
+            class="w-full my-2 text-5xl font-bold leading-tight text-center text-foreground/80"
         >
           Customers
         </h2>
@@ -573,23 +573,23 @@
             class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink"
         >
           <div
-              class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow"
+              class="flex-1 bg-background rounded-t rounded-b-none overflow-hidden shadow"
           >
             <a href="#" class="flex flex-wrap no-underline hover:no-underline">
               <p class="w-full text-gray-600 text-xs md:text-sm px-6">
                 John Doe
               </p>
-              <div class="w-full font-bold text-xl text-gray-800 px-6">
+              <div class="w-full font-bold text-xl text-foreground/80 px-6">
                 Lorem ipsum dolor sit amet.
               </div>
-              <p class="text-gray-800 text-base px-6 mb-5">
+              <p class="text-foreground/80 text-base px-6 mb-5">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
                 at ipsum eu nunc commodo posuere et sit amet ligula.
               </p>
             </a>
           </div>
           <div
-              class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6"
+              class="flex-none mt-auto bg-background rounded-b rounded-t-none overflow-hidden shadow p-6"
           >
             <div class="flex items-center justify-start">
               <button
@@ -602,124 +602,8 @@
         </div>
       </div>
     </section>
-    <section id="pricing" class="bg-gray-100 py-8">
-      <div class="container mx-auto px-2 pt-4 pb-12 text-gray-800">
-        <h2
-            data-aos="fade-up"
-            class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800"
-        >
-          Pricing
-        </h2>
-        <div data-aos="fade-up" class="w-full mb-4">
-          <div
-              class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"
-          ></div>
-        </div>
-        <div
-            class="flex flex-col sm:flex-row justify-center pt-12 my-12 sm:my-4"
-        >
-          <div
-              data-aos="zoom-out-down"
-              class="flex flex-col w-5/6 lg:w-1/4 mx-auto lg:mx-0 rounded-none lg:rounded-l-lg bg-white mt-4"
-          >
-            <div
-                class="flex-1 bg-white text-gray-600 rounded-t rounded-b-none overflow-hidden shadow"
-            >
-              <div class="p-8 text-3xl font-bold text-center border-b-4">
-                Free
-              </div>
-              <ul class="w-full text-center text-sm">
-                <li class="border-b py-4">Thing</li>
-                <li class="border-b py-4">Thing</li>
-                <li class="border-b py-4">Thing</li>
-              </ul>
-            </div>
-            <div
-                class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6"
-            >
-              <div
-                  class="w-full pt-6 text-3xl text-gray-600 font-bold text-center"
-              >
-                £0
-                <span class="text-base">for one user</span>
-              </div>
-              <div class="flex items-center justify-center">
-                <button
-                    class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
-                >
-                  Sign Up
-                </button>
-              </div>
-            </div>
-          </div>
-          <div
-              data-aos="zoom-out-down"
-              class="flex flex-col w-5/6 lg:w-1/3 mx-auto lg:mx-0 rounded-lg bg-white mt-4 sm:-mt-6 shadow-lg z-10"
-          >
-            <div
-                class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow"
-            >
-              <div class="w-full p-8 text-3xl font-bold text-center">Basic</div>
-              <div class="h-1 w-full gradient my-0 py-0 rounded-t"></div>
-              <ul class="w-full text-center text-base font-bold">
-                <li class="border-b py-4">Thing</li>
-                <li class="border-b py-4">Thing</li>
-                <li class="border-b py-4">Thing</li>
-                <li class="border-b py-4">Thing</li>
-              </ul>
-            </div>
-            <div
-                class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6"
-            >
-              <div class="w-full pt-6 text-4xl font-bold text-center">
-                £x.99
-                <span class="text-base">/ per user</span>
-              </div>
-              <div class="flex items-center justify-center">
-                <button
-                    class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
-                >
-                  Sign Up
-                </button>
-              </div>
-            </div>
-          </div>
-          <div
-              data-aos="zoom-out-down"
-              class="flex flex-col w-5/6 lg:w-1/4 mx-auto lg:mx-0 rounded-none lg:rounded-l-lg bg-white mt-4"
-          >
-            <div
-                class="flex-1 bg-white text-gray-600 rounded-t rounded-b-none overflow-hidden shadow"
-            >
-              <div class="p-8 text-3xl font-bold text-center border-b-4">
-                Pro
-              </div>
-              <ul class="w-full text-center text-sm">
-                <li class="border-b py-4">Thing</li>
-                <li class="border-b py-4">Thing</li>
-                <li class="border-b py-4">Thing</li>
-              </ul>
-            </div>
-            <div
-                class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6"
-            >
-              <div
-                  class="w-full pt-6 text-3xl text-gray-600 font-bold text-center"
-              >
-                £x.99
-                <span class="text-base">/ per user</span>
-              </div>
-              <div class="flex items-center justify-center">
-                <button
-                    class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
-                >
-                  Sign Up
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+    <section id="pricing" class="bg-surface py-8">
+      <Pricing />
     </section>
     <svg
         data-aos="zoom-in-up"
@@ -769,14 +653,14 @@
       </h2>
       <div class="w-full mb-4">
         <div
-            class="h-1 mx-auto bg-white w-1/6 opacity-25 my-0 py-0 rounded-t"
+            class="h-1 mx-auto bg-background w-1/6 opacity-25 my-0 py-0 rounded-t"
         ></div>
       </div>
       <h3 class="my-4 text-3xl leading-tight">
         Main Hero Message to sell yourself!
       </h3>
       <button
-          class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
+          class="mx-auto lg:mx-0 hover:underline bg-background text-foreground/80 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
       >
         Action!
       </button>
@@ -788,4 +672,5 @@
 <script  setup lang="ts">
 import LayoutNav from './components/layout/Nav.vue'
 import LayoutFooter from './components/layout/Footer.vue'
+import Pricing from "./components/layout/Pricing.vue";
 </script>

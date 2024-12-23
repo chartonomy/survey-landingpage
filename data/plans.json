@@ -1,0 +1,41 @@
+{
+  "free": {
+    "title": "Kostenlos",
+    "price": "0,00€",
+    "description": "Für immer, versprochen!",
+    "unit": "Person und Monat",
+    "features": [
+      "Einen Test aus Vorlage anlegen",
+      "Auswahl aus vielen freien Testvorlagen",
+      "100 Durchführungen / Monat"
+    ]
+  },
+  "basic": {
+    "title": "Basis",
+    "description": "Alle kostenlosen Features plus",
+    "price": "9,90€",
+    "unit": "Person und Monat",
+    "features": [
+      "Beliebig viele Tests aus Vorlagen anlegen",
+      "Beliebig viele Durchführungen / Monat",
+      "Bis zu 5 eigene Tests entwickeln",
+      "Tests per iFrame einbinden",
+      "Private tests mit Zugangscode",
+      "Tests terminieren und zeitlich begrenzen"
+    ]
+  },
+  "pro": {
+    "title": "Profi",
+    "description":"Alle Basis-features plus",
+    "price": "Auf Anfrage",
+    "unit": "",
+    "features": [
+      "Beliebig viele Nutzerkonten",
+      "Zugang zu allen Testvorlagen für alle Nutzerkonten",
+      "Zugang zu allen kostenpflichtigen Testvorlagen",
+      "Eigenes Corporate Design für Tests",
+      "Anonyme Auswertungen der Testergebnisse",
+      "Tests im Bulk per Email versenden"
+    ]
+  }
+}
