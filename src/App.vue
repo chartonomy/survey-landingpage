@@ -21,6 +21,7 @@
           >
             Jetzt ausprobieren
           </button>
+
         </div>
         <div class="w-full md:w-3/5 py-6 text-center">
           <img class="w-full md:w-4/5 z-50" src="../public/imgs/hero.png" />
@@ -66,13 +67,13 @@
         </g>
       </svg>
     </div>
-    <section id="about" class="bg-background border-b py-8">
+    <section :id="getSlug(nav.about)" class="bg-background border-b py-8">
       <div class="container max-w-5xl mx-auto m-8">
         <h2
             data-aos="fade-up"
             class="w-full my-2 text-5xl font-bold leading-tight text-center text-foreground/80"
         >
-          About
+          {{ nav.about[0] }}
         </h2>
         <div data-aos="fade-up" class="w-full mb-4">
           <div
@@ -553,13 +554,13 @@
         </div>
       </div>
     </section>
-    <section id="customers" class="bg-background border-b py-8">
+    <section :id="getSlug(nav.customers)" class="bg-background border-b py-8">
       <div class="container mx-auto flex flex-wrap pt-4 pb-12">
         <h2
             data-aos="fade-up"
             class="w-full my-2 text-5xl font-bold leading-tight text-center text-foreground/80"
         >
-          Customers
+          {{nav.customers[0]}}
         </h2>
         <div data-aos="fade-up" class="w-full mb-4">
           <div
@@ -602,8 +603,8 @@
         </div>
       </div>
     </section>
-    <section id="pricing" class="bg-surface py-8">
-      <Pricing />
+    <section :id="getSlug(nav.pricing)" class="bg-surface py-8">
+      <Pricing :title="nav.pricing[0]" />
     </section>
     <svg
         data-aos="zoom-in-up"
@@ -642,7 +643,7 @@
       </g>
     </svg>
     <section
-        id="contact"
+        :id="getSlug(nav.contact)"
         data-aos="zoom-in-up"
         class="container mx-auto text-center py-6 mb-12"
     >
@@ -673,4 +674,9 @@
 import LayoutNav from './components/layout/Nav.vue'
 import LayoutFooter from './components/layout/Footer.vue'
 import Pricing from "./components/layout/Pricing.vue";
+import { getSlug } from "./utils/getSlug";
+import navRaw from '../data/nav.json'
+import {ref} from "vue";
+
+const nav = ref(navRaw);
 </script>

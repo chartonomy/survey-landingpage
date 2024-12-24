@@ -29,7 +29,7 @@
               d="M2.25 15a4.5 4.5 0 004.5 4.5H18a3.75 3.75 0 001.332-7.257 3 3 0 00-3.758-3.848 5.25 5.25 0 00-10.233 2.33A4.502 4.502 0 002.25 15z"
             />
           </svg>
-          LANDING
+          {{title}}
         </a>
       </div>
       <div class="block lg:hidden pr-4">
@@ -57,40 +57,9 @@
         id="nav-content"
       >
         <ul class="list-reset lg:flex justify-end flex-1 items-center">
-          <li class="mr-3">
-            <a
-              class="inline-block uppercase py-2 px-4 font-medium no-underline"
-              href="#"
-              >Home</a
-            >
-          </li>
-          <li class="mr-3">
-            <a
-              class="inline-block uppercase no-underline font-medium hover:text-gray-800 hover:text-underline py-2 px-4"
-              href="#about"
-              >About</a
-            >
-          </li>
-          <li class="mr-3">
-            <a
-              class="inline-block uppercase no-underline font-medium hover:text-gray-800 hover:text-underline py-2 px-4"
-              href="#customers"
-              >Customers</a
-            >
-          </li>
-          <li class="mr-3">
-            <a
-              class="inline-block uppercase no-underline font-medium hover:text-gray-800 hover:text-underline py-2 px-4"
-              href="#pricing"
-              >Pricing</a
-            >
-          </li>
-          <li class="mr-3">
-            <a
-              class="inline-block uppercase no-underline font-medium hover:text-gray-800 hover:text-underline py-2 px-4"
-              href="#contact"
-              >Contact</a
-            >
+          <li class="mr-3" v-for="navEntry in entries">
+            <a class="inline-block uppercase no-underline font-medium hover:text-gray-800 hover:text-underline py-2 px-4"
+               :href="`#${getSlug(navEntry)}`">{{navEntry[1] ?? navEntry[0]}}</a>
           </li>
         </ul>
         <button
@@ -113,7 +82,10 @@
 <script setup lang="ts">
 import {onMounted, ref, watch} from "vue";
 import { cn } from '../../utils/cn.js';
+import { getSlug } from '../../utils/getSlug.js';
+import nav from '../../../data/nav.json'
 
+const { title, ...entries } = nav;
 const scrollY = ref(0)
 const mobileSidebar = ref(false)
 const minimize = ref(false)

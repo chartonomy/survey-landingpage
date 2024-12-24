@@ -4,7 +4,7 @@
           data-aos="fade-up"
           class="w-full my-2 text-5xl font-bold leading-tight text-center text-foreground/80"
       >
-        Angebote
+        {{title}}
       </h2>
       <div data-aos="fade-up" class="w-full mb-4">
         <div
@@ -124,6 +124,9 @@
 
 <script setup>
 import pricing from '../../../data/plans.json'
+defineProps({
+  title: String
+})
 </script>
 
 <style scoped>
