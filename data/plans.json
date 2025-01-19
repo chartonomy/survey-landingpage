@@ -1,4 +1,5 @@
 {
+  "enabled": false,
   "free": {
     "title": "Kostenlos",
     "price": "0,00€",
@@ -13,7 +14,7 @@
   "basic": {
     "title": "Basis",
     "description": "Alle kostenlosen Features plus",
-    "price": "9,90€",
+    "price": "x,xx€",
     "unit": "Person und Monat",
     "features": [
       "Beliebig viele Tests aus Vorlagen anlegen",
@@ -25,7 +26,7 @@
     ]
   },
   "pro": {
-    "title": "Profi",
+    "title": "Enterprise",
     "description":"Alle Basis-features plus",
     "price": "Auf Anfrage",
     "unit": "",

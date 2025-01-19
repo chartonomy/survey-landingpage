@@ -1,0 +1,15 @@
+{
+  "demo": "http://localhost:4040/umfrage/los/jyWpKaQzmx3oiJPKu",
+  "blocks": {
+    "pricing": true
+  },
+  "nav": {
+    "entries": {
+      "title": "Selbsttest",
+      "home": ["Start", null],
+      "about": ["Über uns"],
+      "customers": ["Was unsere Kunden sagen", "Kunden"],
+      "contact": ["Kontakt"]
+    }
+  }
+}

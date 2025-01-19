@@ -3,6 +3,5 @@
   "home": ["Start", null],
   "about": ["Über uns"],
   "customers": ["Was unsere Kunden sagen", "Kunden"],
-  "pricing": ["Angebote und Kosten", "Angebote"],
   "contact": ["Kontakt"]
 }

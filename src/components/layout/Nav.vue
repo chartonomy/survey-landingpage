@@ -58,7 +58,7 @@
       >
         <ul class="list-reset lg:flex justify-end flex-1 items-center">
           <li class="mr-3" v-for="navEntry in entries">
-            <a class="inline-block uppercase no-underline font-medium hover:text-gray-800 hover:text-underline py-2 px-4"
+            <a class="inline-block uppercase no-underline font-medium hover:text-gray-800 hover:text-underline text-primary-foreground py-2 px-4"
                :href="`#${getSlug(navEntry)}`">{{navEntry[1] ?? navEntry[0]}}</a>
           </li>
         </ul>

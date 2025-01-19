@@ -1,3 +1,14 @@
+<script  setup lang="ts">
+import LayoutNav from './components/layout/Nav.vue'
+import LayoutFooter from './components/layout/Footer.vue'
+import { getSlug } from "./utils/getSlug";
+import {ref} from "vue";
+import config from '../data/config.json';
+
+const { demo } = config;
+const navRaw = config.nav;
+const nav = ref(navRaw.entries);
+</script>
 <template>
   <div class="leading-normal tracking-normal text-white gradient">
     <LayoutNav />
@@ -21,10 +32,10 @@
           >
             Jetzt ausprobieren
           </button>
-
         </div>
+
         <div class="w-full md:w-3/5 py-6 text-center">
-          <img class="w-full md:w-4/5 z-50" src="../public/imgs/hero.png" />
+          <img class="w-full md:w-4/5 z-50" alt="titelbild selbsttest.org" src="/imgs/hero.png" />
         </div>
       </div>
     </div>
@@ -603,9 +614,6 @@
         </div>
       </div>
     </section>
-    <section :id="getSlug(nav.pricing)" class="bg-surface py-8">
-      <Pricing :title="nav.pricing[0]" />
-    </section>
     <svg
         data-aos="zoom-in-up"
         class="wave-top"
@@ -670,13 +678,3 @@
   </div>
 </template>
 
-<script  setup lang="ts">
-import LayoutNav from './components/layout/Nav.vue'
-import LayoutFooter from './components/layout/Footer.vue'
-import Pricing from "./components/layout/Pricing.vue";
-import { getSlug } from "./utils/getSlug";
-import navRaw from '../data/nav.json'
-import {ref} from "vue";
-
-const nav = ref(navRaw);
-</script>
