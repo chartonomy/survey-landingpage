@@ -1,6 +1,7 @@
 {
   "title": "Selbsttest",
   "home": ["Start", null],
+  "gdpr": ["Datenschutz und GSDVO", "GSDVO"],
   "about": ["Über uns"],
   "customers": ["Was unsere Kunden sagen", "Kunden"],
   "contact": ["Kontakt"]

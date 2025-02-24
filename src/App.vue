@@ -1,9 +1,12 @@
-<script  setup lang="ts">
+  <script  setup lang="ts">
 import LayoutNav from './components/layout/Nav.vue'
 import LayoutFooter from './components/layout/Footer.vue'
 import { getSlug } from "./utils/getSlug";
 import {ref} from "vue";
 import config from '../data/config.json';
+import CallToAction from "./components/blocks/CallToAction.vue";
+import Headline2 from "./components/common/Headline2.vue";
+import GDPR from "./components/blocks/GDPR.vue";
 
 const { demo } = config;
 const navRaw = config.nav;
@@ -78,14 +81,13 @@ const nav = ref(navRaw.entries);
         </g>
       </svg>
     </div>
+    <section :id="getSlug(nav.gdpr)" class="bg-background border-b py-8">
+      <GDPR :title="nav.gdpr[0]"/>
+    </section>
+
     <section :id="getSlug(nav.about)" class="bg-background border-b py-8">
       <div class="container max-w-5xl mx-auto m-8">
-        <h2
-            data-aos="fade-up"
-            class="w-full my-2 text-5xl font-bold leading-tight text-center text-foreground/80"
-        >
-          {{ nav.about[0] }}
-        </h2>
+        <Headline2 :title="nav.about[0]" />
         <div data-aos="fade-up" class="w-full mb-4">
           <div
               class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"
@@ -567,12 +569,7 @@ const nav = ref(navRaw.entries);
     </section>
     <section :id="getSlug(nav.customers)" class="bg-background border-b py-8">
       <div class="container mx-auto flex flex-wrap pt-4 pb-12">
-        <h2
-            data-aos="fade-up"
-            class="w-full my-2 text-5xl font-bold leading-tight text-center text-foreground/80"
-        >
-          {{nav.customers[0]}}
-        </h2>
+        <Headline2 :title="nav.customers[0]" />
         <div data-aos="fade-up" class="w-full mb-4">
           <div
               class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"
@@ -655,24 +652,7 @@ const nav = ref(navRaw.entries);
         data-aos="zoom-in-up"
         class="container mx-auto text-center py-6 mb-12"
     >
-      <h2
-          class="w-full my-2 text-5xl font-bold leading-tight text-center text-white"
-      >
-        Call to Action
-      </h2>
-      <div class="w-full mb-4">
-        <div
-            class="h-1 mx-auto bg-background w-1/6 opacity-25 my-0 py-0 rounded-t"
-        ></div>
-      </div>
-      <h3 class="my-4 text-3xl leading-tight">
-        Main Hero Message to sell yourself!
-      </h3>
-      <button
-          class="mx-auto lg:mx-0 hover:underline bg-background text-foreground/80 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
-      >
-        Action!
-      </button>
+      <CallToAction />
     </section>
     <LayoutFooter />
   </div>

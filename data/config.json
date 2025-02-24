@@ -9,7 +9,8 @@
       "home": ["Start", null],
       "about": ["Über uns"],
       "customers": ["Was unsere Kunden sagen", "Kunden"],
-      "contact": ["Kontakt"]
+      "contact": ["Kontakt"],
+      "gdpr": ["Datenschutz und GSDVO", "GSDVO"]
     }
   }
 }
