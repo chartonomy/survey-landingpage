@@ -16,8 +16,7 @@
 
             Images from:
 
-            <a class="text-primary underline" href="https://undraw.co/"
-            >undraw.co</a
+            <a class="text-primary underline" href="https://undraw.co/">undraw.co</a
             >
           </p>
         </div>

@@ -7,7 +7,7 @@ import CallToAction from "./components/blocks/CallToAction.vue";
 import GDPR from "./components/blocks/GDPR.vue";
 import WavesUpwards from "./components/layout/WavesUpwards.vue";
 import WavesDownwards from "./components/layout/WavesDownwards.vue";
-import { useAOS } from "./composables/aos.js";
+import { useAOS} from "./composables/aos.js";
 import config from '../data/config.json';
  import Demo from "./components/blocks/Demo.vue";
 
