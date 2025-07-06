@@ -23,5 +23,4 @@ dist-ssr
 *.sw?
 
 # vitepress related
-.vitepress/dist
 .vitepress/cache
