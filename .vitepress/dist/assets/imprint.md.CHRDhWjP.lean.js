@@ -1,1 +1,0 @@
-import{_ as r,c as t,o as n,ae as s}from"./chunks/framework.B8KKhRA6.js";const b=JSON.parse('{"title":"Impressum","description":"","frontmatter":{},"headers":[],"relativePath":"imprint.md","filePath":"imprint.md"}'),a={name:"imprint.md"};function i(o,e,l,m,p,c){return n(),t("div",null,e[0]||(e[0]=[s("",6)]))}const u=r(a,[["render",i]]);export{b as __pageData,u as default};
