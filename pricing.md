@@ -7,7 +7,7 @@ hero:
     text: Preise und Kostenmodelle
     tagline: 
     image:
-        src: /assets/undraw_online-payments.svg
+        src: /undraw_online-payments.svg
         alt: Grafik Preise und Kostenmodelle
 
 features:

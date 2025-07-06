@@ -9,7 +9,7 @@ hero:
   text: Über die Selbsttest-App
   tagline: Probieren Sie es gleich aus!
   image:
-    src: ./assets/undraw_website-builder.svg
+    src: undraw_website-builder.svg
     alt: Grafik über die Selbsttest App
   actions:
     - theme: brand
@@ -33,7 +33,7 @@ Dies ermöglicht es Ihnen z.B. gängige valide Fragebögen mitsamt der Auswertun
 zugänglich zu machen.
 Teilnehmehmende Personen erhalten die Rückmeldung unverzüglich nach Befragung und können so entsprechende Folgemaßnahmen ergreifen.
 
-![Grafik Workflow](assets/undraw_analysis.svg)
+![Grafik Workflow](/undraw_analysis.svg)
 
 ## Welche Daten werden erhoben und gespeichert?
 
@@ -41,7 +41,7 @@ Von "Anonym" bis "Analytics": ein wesentlicher Aspekt der Selbsttest-App ist der
 Es sind standardmäßig keine Personenbezogenen Daten erforderlich um an Befragungen teilzunehmen.
 Darüber hinaus lassen sich Befragungen flexibel an die lokalen Datenschutzanforderungen anpassen.
 
-![Grafik GSDVO](assets/undraw_gdpr.svg)
+![Grafik GSDVO](/undraw_gdpr.svg)
 
 ## Kann ich mein eigenes Design verwenden?
 
@@ -51,8 +51,8 @@ Dabei sind Sie vollkommen Flexibel in Ihrer Gesaltung der Elemente.
 
 |                            Standard                            |                            Custom                            |
 |:--------------------------------------------------------------:|:------------------------------------------------------------:|
-| ![Grafik Startseite Standard Design](assets/start-default.png) |  ![Grafik Startseite Custom Design](assets/start-brite.png)  |
-| ![Grafik Befragung Standard Design](assets/items-default.png)  |  ![Grafik Befragunge Custom Design](assets/items-brite.png)  |
+| ![Grafik Startseite Standard Design](/start-default.png) |  ![Grafik Startseite Custom Design](/start-brite.png)  |
+| ![Grafik Befragung Standard Design](/items-default.png)  |  ![Grafik Befragunge Custom Design](/items-brite.png)  |
 
 <div align="center">
   <small><i>Vergleich Standard Design (links) vs. customisiertes Design (rechts)</i></small>

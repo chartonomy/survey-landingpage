@@ -7,7 +7,7 @@ hero:
   text: "Verlässliche anonyme Selbsttests für Ihr Team"
   tagline: Probieren Sie es gleich aus!
   image:
-    src: ./assets/undraw_website-builder.svg
+    src: undraw_website-builder.svg
     alt: Selbsttest Grafik
   actions:
     - theme: brand
