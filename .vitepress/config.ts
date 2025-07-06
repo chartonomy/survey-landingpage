@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "selbsttest.org",
-  base: '/survey-landingpage/',
+  base: '/',
   description: "Verlässliche anonyme Selbsttests für Ihr Team",
   sitemap: {
     hostname: 'https://selbsttest.org'
