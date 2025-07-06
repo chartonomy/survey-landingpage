@@ -9,8 +9,8 @@ export default defineConfig({
     hostname: 'https://selbsttest.org'
   },
   head: [
-      ['link', { rel: 'icon', href: '/assets/favicon.ico' }],
-      ['link', { rel: 'stylesheet', href: '/assets/aos.css' }],
+      ['link', { rel: 'icon', href: '/favicon.ico' }],
+      // ['link', { rel: 'stylesheet', href: '/assets/aos.css' }],
   ],
   themeConfig: {
     logo: './assets/logo.svg',
