@@ -3,7 +3,7 @@ Stand: 04. Juli 2025
 
 Wir nehmen den Schutz Ihrer persönlichen Daten sehr ernst. Die Nutzung unserer Webseite ist in der Regel ohne Angabe personenbezogener Daten möglich. Wir verarbeiten personenbezogene Daten nur, soweit dies zur Bereitstellung einer funktionsfähigen Website erforderlich ist.
 
-> Bitte beachten Sie, dass für die Selbsttest-App eine gesonderte Datenschutzerklärung vorliegt.
+Bitte beachten Sie, dass für die Selbsttest-App eine [gesonderte Datenschutzerklärung](./privacy-app.md) vorliegt.
 
 ## 1. Verantwortlicher
 

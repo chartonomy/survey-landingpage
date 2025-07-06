@@ -4,7 +4,6 @@ description: Erfahren Sie was die Selbsttest-App von anderen Befragungs-Tools un
 editLink: false
 lastUpdated: false
 layout: home
-
 hero:
   name: "selbsttest.org"
   text: Über die Selbsttest-App
@@ -38,11 +37,9 @@ Teilnehmehmende Personen erhalten die Rückmeldung unverzüglich nach Befragung 
 
 ## Welche Daten werden erhoben und gespeichert?
 
-Ein wesentlicher Aspekt der Selbsttest-App ist der hohe Datenschutz: 
-es werden grundsätzlich keine Personenbezogenen Daten erhoben.
-
-Zudem lassen sich Befragungen flexibel an die lokalen Datenschutzanforderungen, bis hin zu vollständig anonysierten
-Befragungen anpassen.
+Von "Anonym" bis "Analytics": ein wesentlicher Aspekt der Selbsttest-App ist der hohe Datenschutz. 
+Es sind standardmäßig keine Personenbezogenen Daten erforderlich um an Befragungen teilzunehmen.
+Darüber hinaus lassen sich Befragungen flexibel an die lokalen Datenschutzanforderungen anpassen.
 
 ![Grafik GSDVO](assets/undraw_gdpr.svg)
 

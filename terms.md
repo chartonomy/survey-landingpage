@@ -1,8 +1,8 @@
 # Nutzungsbedingungen („AGB“)
-für die Web-Anwendung [https://app.selbsttest.org](app.selbsttest.org) – Stand 04. Juli 2025
+für die Web-Anwendung [https://app.selbsttest.org](https://app.selbsttest.org) – Stand 04. Juli 2025
 
 ## 1. Geltungsbereich
-Diese Bedingungen regeln das Rechtsverhältnis zwischen der selbsttest.org (nachfolgend „Anbieter“) und den Nutzern der Web-Anwendung app.selbsttest.org (nachfolgend „Nutzer“). Entgegenstehende oder ergänzende Bedingungen des Nutzers werden nicht Vertragsbestandteil, es sei denn, der Anbieter stimmt ihrer Geltung ausdrücklich schriftlich zu.
+Diese Bedingungen regeln das Rechtsverhältnis zwischen der selbsttest.org (nachfolgend „Anbieter“) und den Nutzern der Web-Anwendung https://app.selbsttest.org (nachfolgend „Nutzer“). Entgegenstehende oder ergänzende Bedingungen des Nutzers werden nicht Vertragsbestandteil, es sei denn, der Anbieter stimmt ihrer Geltung ausdrücklich schriftlich zu.
 
 
 ## 2. Vertragsgegenstand und Leistungsbeschreibung
