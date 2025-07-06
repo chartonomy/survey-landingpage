@@ -9,12 +9,12 @@ Wir nehmen den Schutz Ihrer persönlichen Daten sehr ernst. Die Nutzung unserer 
 
 Verantwortlich für die Datenverarbeitung auf dieser Website im Sinne der Datenschutz-Grundverordnung (DSGVO):
 
-MusterSoft GbR
-Max Mustermann & Erika Beispiel
-Musterstraße 12
-12345 Musterstadt
-Deutschland
-E-Mail: kontakt@mustersoft.de
+**Dr. Mark Heckmann**<br>
+Steinhäuser Str. 7<br>
+28195 Bremen<br>
+Deutschland<br>
+E-Mail: kontakt@selbsttest.org<br>
+
 
 ## 2. Hosting der Website
 

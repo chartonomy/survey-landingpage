@@ -9,7 +9,7 @@ import './style.css'
 const aos = useAOS()
 export default {
   setup () {
-    aos.init({ delay: 800 })
+    aos.init({ duration: 800 })
   },
   extends: DefaultTheme,
   Layout: () => {

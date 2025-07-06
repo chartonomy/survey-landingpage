@@ -44,7 +44,7 @@ const members = [
   {
     avatar: 'https://avatars.githubusercontent.com/u/152927?v=4',
     name: 'Mark Heckmann',
-    title: 'Co-Founder',
+    title: 'Co-Founder, CEO',
     links: [
       { icon: 'github', link: 'https://github.com/markheckmann' },
       { icon: 'linkedin', link: 'https://www.linkedin.com/in/markheckmann/' }
@@ -53,7 +53,7 @@ const members = [
   {
     avatar: 'https://avatars.githubusercontent.com/u/1135285?v=4',
     name: 'Jan Küster',
-    title: 'Co-Founder',
+    title: 'Co-Founder, CTO',
     links: [
       { icon: 'github', link: 'https://github.com/jankapunkt' },
       { icon: 'linkedin', link: 'https://www.linkedin.com/in/jan-kuester/' }
@@ -62,9 +62,3 @@ const members = [
 ]
 </script>
 
-
-## Unser Team
-
-<FadeIn>
-    <VPTeamMembers size="small" :members />
-</FadeIn>

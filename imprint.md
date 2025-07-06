@@ -1,32 +1,19 @@
 # Impressum
-Angaben gemäß § 5 TMG:
+Angaben gemäß § 5 TMG
 
-**Max Mustermann & Erika Beispiel**
+**Dr. Mark Heckmann**<br>
+Steinhäuser Str. 7<br>
+28195 Bremen<br>
+Deutschland<br>
 
-MusterSoft GbR
-Musterstraße 12
-12345 Musterstadt
-Deutschland
+**Kontakt:**<br>
+Telefon: +49 (0)178 846 0740<br>
+E-Mail: kontakt@selbsttest.org<br>
+Umsatzsteuer-ID: DE283805253<br>
 
+**Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV:**<br>
+Mark Heckmann, Anschrift wie oben
 
-**Vertreten durch die Gesellschafter:**
-
-Max Mustermann
-Erika Beispiel
-
-**Kontakt:**
-
-Telefon: +49 (0)123 456789
-E-Mail: kontakt@mustersoft.de
-Website: https://www.mustersoft.de
-
-**Umsatzsteuer-ID:**
-
-Umsatzsteuer-Identifikationsnummer gemäß § 27a Umsatzsteuergesetz:
-DE123456789
-
-**Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV:**
-
-Max Mustermann
-Musterstraße 12
-12345 Musterstadt
+**Verbraucherstreitbeilegung / Universalschlichtungsstelle**<br>
+Wir sind nicht bereit und nicht verpflichtet, an Streitbeilegungsverfahren 
+von einer Verbraucherschlichtungsstelle teilzunehmen.
