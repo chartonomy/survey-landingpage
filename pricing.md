@@ -33,7 +33,7 @@ features:
   link: mailto:kontakt@selbsttest.org?subject=Enterprise%20Anfrage%20Selbsttest-App
   linkText: Kontaktieren Sie uns
 ---
-<a data-v-a6f37409="" data-v-89d2fc22="" class="VPButton medium brand" href="https://app.selbsttest.org/"
+<a data-v-a6f37409="" data-v-89d2fc22="" class="VPButton medium brand" href="https://app.selbsttest.org/registrieren"
 target="_blank" rel="noreferrer">Jetzt kostenlos registrieren</a>
 
 ## Übersicht über alle Features
@@ -55,5 +55,5 @@ target="_blank" rel="noreferrer">Jetzt kostenlos registrieren</a>
 | Source-Code einsicht                              |     ❌     |       ❌        |             ❌             |       ✅       |
 | On-Premise hosting                                |     ❌     |       ❌        |             ❌             |       ✅       |
 
-<a data-v-a6f37409="" data-v-89d2fc22="" class="VPButton medium brand" href="https://app.selbsttest.org/"
+<a data-v-a6f37409="" data-v-89d2fc22="" class="VPButton medium brand" href="https://app.selbsttest.org/registrieren"
 target="_blank" rel="noreferrer">Jetzt kostenlos registrieren</a>

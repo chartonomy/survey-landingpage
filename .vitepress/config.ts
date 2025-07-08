@@ -22,7 +22,7 @@ export default defineConfig({
         text: 'App',
         items: [
           { text: 'Anmelden', link: 'https://app.selbsttest.org/' },
-          {text: 'Registrieren', link: 'https://app.selbsttest.org/'}
+          {text: 'Registrieren', link: 'https://app.selbsttest.org/registrieren'}
         ]
       },
           { text: 'Datenschutz', link: '/privacy' },

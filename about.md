@@ -18,7 +18,7 @@ hero:
       target: _blank
     - theme: brand
       text: Jetzt registrieren
-      link: https://app.selbsttest.org/
+      link: https://app.selbsttest.org/registrieren
 ---
 
 
@@ -64,6 +64,9 @@ Dabei sind Sie vollkommen Flexibel in Ihrer Gesaltung der Elemente.
 - [Datenschutzerklärung Webseite](./privacy.md)
 - [Datenschutzerklärung Selbsttest-App](./privacy-app.md)
 - [Nutzungsbedingungen Selbsttest-App](./terms.md)
+
+<a data-v-a6f37409="" data-v-89d2fc22="" class="VPButton medium brand" href="https://app.selbsttest.org/registrieren"
+target="_blank" rel="noreferrer">Jetzt kostenlos registrieren</a>
 
 ## Sie haben noch Fragen?
 
